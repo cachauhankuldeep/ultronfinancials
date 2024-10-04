@@ -1,8 +1,9 @@
 import React from "react";
-import { ChevronDown } from "lucide-react";
+import { ChartBarStacked, ChevronDown, ListTodo } from "lucide-react";
 
 import { Variants } from "framer-motion";
 import { motion } from "framer-motion";
+import { IconTool } from "@tabler/icons-react";
 
 const items: Variants = {
   hidden: {
@@ -60,23 +61,24 @@ const Hero = () => {
               "bg-gradient-to-br from-neutral-800 to-black rounded-[1.2rem] py-10 px-8 smLaptop:text-[min(2vh,2vw)] smTablet:text-md space-y-6"
             }
           >
-            <motion.p
+            <motion.ul
               whileInView={"visible"}
               initial={"hidden"}
               variants={items}
-              className={"font-semibold text-[min(2.3vh,2.3vw)]"}
+              className={"font-semibold text-[min(2.3vh,2.3vw)] space-y-4"}
             >
-              Navigate the UAE Market with Expert Business Consulting
-            </motion.p>
-            <motion.p
-              whileInView={"visible"}
-              initial={"hidden"}
-              variants={items}
-            >
-              Leading from behind the scenes while steering our clients at the
-              forefront, we help them achieve their goals and objectives through
-              strategies uniquely tailored to their specific needs.
-            </motion.p>
+              <li className={"flex justify-start items-center gap-2"}>
+                <ChartBarStacked />
+                Strategy
+              </li>
+              <li className={"flex justify-start items-center gap-2"}>
+                <ListTodo />
+                Management
+              </li>
+              <li className={"flex justify-start items-center gap-2"}>
+                <IconTool /> Support
+              </li>
+            </motion.ul>
           </div>
         </div>
         <motion.p

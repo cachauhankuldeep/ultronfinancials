@@ -39,7 +39,10 @@ export const sections = [
     ), // Strategy icon
     heading: "Strategy",
     description:
-      "We assist companies in planning and refining all business aspects for razor-sharp focus, ensuring they achieve their objectives efficiently.",
+      "Helping companies planning and panning " +
+      "out all related factors and " +
+      "aspects of their business for " +
+      '"Razor-Sharp" focus on achieving their objectives.',
   },
   {
     icon: (
@@ -61,7 +64,12 @@ export const sections = [
     ), // Management icon
     heading: "Management",
     description:
-      "We guide clients from the shadows and manage at the forefront, helping them achieve targets with tailor-made strategies.",
+      "Guiding from the shadows and " +
+      "managing at the forefront our " +
+      "clients to achieve the targets and " +
+      "objectives set based on the " +
+      'Strategies developed "tailor-made" ' +
+      "for their specific needs.",
   },
   {
     icon: (

@@ -3,6 +3,7 @@ import maps from "@/public/assets/maps.png";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
 import { LucideMail, PhoneIcon } from "lucide-react";
+import { IconAddressBook } from "@tabler/icons-react";
 
 const items: Variants = {
   hidden: {
@@ -82,7 +83,18 @@ const Contact = () => {
               initial={"hidden"}
               variants={items2}
               className={
-                "smTablet:text-[min(3vh,3vw)] xsPhone:text-[min(4vh,4vw)] font-light text-neutral-700 flex justify-center items-center gap-4"
+                "smTablet:text-[min(2.5vh,2.5vw)] xsPhone:text-[min(4vh,4vw)] font-light text-neutral-700 flex justify-center items-center gap-4"
+              }
+            >
+              <IconAddressBook /> 2037, 20th Floor, Burjuman Business Tower,
+              Dubai, UAE
+            </motion.p>
+            <motion.p
+              whileInView={"visible"}
+              initial={"hidden"}
+              variants={items2}
+              className={
+                "smTablet:text-[min(2.5vh,2.5vw)] xsPhone:text-[min(4vh,4vw)] font-light text-neutral-700 flex justify-center items-center gap-4"
               }
             >
               <LucideMail /> info@ultronfinancials.com
@@ -92,10 +104,10 @@ const Contact = () => {
               initial={"hidden"}
               variants={items2}
               className={
-                "smTablet:text-[min(3vh,3vw)] xsPhone:text-[min(4vh,4vw)] font-light text-neutral-700 flex justify-center items-center gap-4"
+                "smTablet:text-[min(2.5vh,2.5vw)] xsPhone:text-[min(4vh,4vw)] font-light text-neutral-700 flex justify-center items-center gap-4"
               }
             >
-              <PhoneIcon /> +971566687371
+              <PhoneIcon /> +971 503453393
             </motion.p>
           </div>
         </div>

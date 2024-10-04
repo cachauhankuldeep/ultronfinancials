@@ -148,10 +148,10 @@ const Services = () => {
                 "my-4 xsPhone:text-[min(3.5vh,3.5vw)] smTablet:text-[min(2.2vh,2.2vw)]"
               }
             >
-              We offer facilitation of various sources of funding to up and
-              becoming businesses ranging from Working Capital Loan, Loan
-              against Property, Overdraft Facility, Letter of Credits, Bank
-              Guarantees, Long-Term Loans to meet short and long range needs.
+              We help businesses set up their shop in UAE based on their
+              requirements of Geography, Logistics, Business Activity, Tax
+              Incentive. We offer both Mainland and Free-zone Company Setup. We
+              have partnered with all the leading Free-zones across UAE.
             </motion.p>
             <motion.ul
               whileInView={"visible"}
@@ -161,11 +161,10 @@ const Services = () => {
                 " w-full space-y-2 xsPhone:text-[min(3.5vh,3.5vw)] smTablet:text-[min(2.2vh,2.2vw)]"
               }
             >
-              <li>- Working capital loan</li>
-              <li>- Term loan</li>
-              <li>- Overdraft facility</li>
-              <li>- Letter Of Credit</li>
-              <li>- Invoice Discounting</li>
+              <li>- Mainland Company Setup</li>
+              <li>- Free-Zone Company Setup</li>
+              <li>- Off-Shore Company Setup</li>
+              <li>- Outside UAE Jurisdictions Company Setup</li>
             </motion.ul>
             <div
               className={
@@ -247,10 +246,8 @@ const Services = () => {
                 "my-4 text-neutral-700 smTablet:text-[min(2.2vh,2.2vw)] xsPhone:text-[min(3.5vh,3.5vw)]"
               }
             >
-              We offer facilitation of various sources of funding to up and
-              becoming businesses ranging from Working Capital Loan, Loan
-              against Property, Overdraft Facility, Letter of Credits, Bank
-              Guarantees, Long-Term Loans to meet short and long range needs.
+              We help businesses to set up and thrive across all markets and for
+              this we offer following services under one-roof:
             </motion.p>
             <motion.ul
               whileInView={"visible"}
