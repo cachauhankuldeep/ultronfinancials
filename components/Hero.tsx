@@ -38,6 +38,7 @@ const Hero = () => {
           autoPlay
           loop
           muted
+          playsInline={true}
           controls={false}
         >
           <source src={"/dubai3.mp4"} type="video/mp4" />
