@@ -3,7 +3,7 @@ import { ChartBarStacked, ChevronDown, ListTodo } from "lucide-react";
 
 import { Variants } from "framer-motion";
 import { motion } from "framer-motion";
-import { IconTool } from "@tabler/icons-react";
+import { IconArrowGuide, IconTool } from "@tabler/icons-react";
 
 const items: Variants = {
   hidden: {
@@ -77,6 +77,9 @@ const Hero = () => {
               </li>
               <li className={"flex justify-start items-center gap-2"}>
                 <IconTool /> Support
+              </li>
+              <li className={"flex justify-start items-center gap-2"}>
+                <IconArrowGuide /> Guidance
               </li>
             </motion.ul>
           </div>

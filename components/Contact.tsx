@@ -1,5 +1,5 @@
 import React from "react";
-import maps from "@/public/assets/maps.png";
+import maps from "@/public/assets/vecteezy_dubai-city-skyline-silhouette-vector-illustration_8216009.jpg";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
 import { LucideMail, PhoneIcon } from "lucide-react";
