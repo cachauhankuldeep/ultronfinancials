@@ -1,19 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 import logo from "@/public/assets/logo.png";
-import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
+
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { MenuIcon } from "lucide-react";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Navbar = () => {
   return (

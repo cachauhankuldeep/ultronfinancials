@@ -28,24 +28,6 @@ const items: Variants = {
     },
   },
 };
-const items2: Variants = {
-  hidden: {
-    opacity: 0,
-    transition: {
-      type: "tween",
-      ease: "easeIn",
-      duration: 0.7,
-    },
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      type: "tween",
-      ease: "easeIn",
-      duration: 0.7,
-    },
-  },
-};
 
 export const sections = [
   {
